@@ -84,7 +84,7 @@
         <% } %>
     </table>
 
-        <h2>SVG Line Chart</h2>
+        <h2>Bubbles</h2>
         <%~ await daty("viz-1.svg", it.viz) %>
 
 
