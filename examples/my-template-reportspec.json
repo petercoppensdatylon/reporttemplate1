@@ -1,5 +1,5 @@
 {
-  "reportTemplate": "path:my-template.v1",
+  "reportTemplate": "github:petercoppensdatylon/reporttemplate1",
   "dataFormat": "v1",
   "pdf": {
     "width": "8.3in",
