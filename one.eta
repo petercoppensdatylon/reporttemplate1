@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVG Embedded Page</title>
+    <title>SVG Embedded Page With Html Table</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -69,7 +69,7 @@
 <body>
 
     <div class="a4-container">
-        <h1><%= it.title %></h1>
+        <h1>Title:<%= it.title %></h1>
     <table>
         <% for(let i = 0; i < it.viz["main template datasheet container"]["Default Data"].length; i++) { %>
             <tr>
