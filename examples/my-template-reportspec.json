@@ -1,0 +1,33 @@
+{
+  "reportTemplate": "github:petercoppensdatylon/reporttemplate1",
+  "dataFormat": "v1",
+  "pdf": {
+    "width": "8.3in",
+    "height": "11.7in"
+  },
+  "data": {
+    "main template datasheet container": {
+      "Default Data": [
+            [ "Category", "Value 1", "Value 2" ],
+            [ "aa", "65", "6000" ],
+            [ "B", "60", "5000" ],
+            [ "C", "70", "4000" ],
+            [ "D", "20", "500" ],
+            [ "E", "40", "3000" ],
+            [ "F", "75", "9000" ],
+            [ "G", "45", "5000" ],
+            [ "H", "25", "3000" ]
+          ]
+        }
+  },
+  "pages": [
+    {
+      "template": "one",
+      "name": "page-one",
+      "data": {
+        "title": "Daily fruits",
+        "viz": { "$ref": "#/data" }
+      }
+    }
+  ]
+}
