@@ -69,7 +69,7 @@
 <body>
 
     <div class="a4-container">
-        <h1>Title:<%= it.title %></h1>
+        <h1><%= it.title %></h1>
     <table>
         <% for(let i = 0; i < it.viz["main template datasheet container"]["Default Data"].length; i++) { %>
             <tr>
